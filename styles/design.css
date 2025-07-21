@@ -141,9 +141,8 @@ nav {
   border: none;
   color: white;
 }
-.arrow{
+.arrow {
   margin-left: 12px;
- 
 }
 
 .banner-img-container {
@@ -153,37 +152,29 @@ nav {
   width: 470px;
 }
 
-
-.dslr{
+.dslr {
   position: absolute;
   top: 30px;
   left: 30px;
   width: 450px;
 }
 
-
-
-
 /* products  */
 
-
-
-.product-logo{
+.product-logo {
   margin-top: 69px;
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 /* new css */
 
-
-
-
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
-  .navcontainer,.banner {
+  .navcontainer,
+  .banner {
     flex-direction: column;
     align-items: center;
   }
@@ -195,18 +186,17 @@ nav {
     gap: 5px;
     align-items: center;
   }
-  .banner{
+  .banner {
     flex-direction: column-reverse;
   }
 
-  .banner-container{
+  .banner-container {
     text-align: center;
   }
 
   .banner-title {
-  font-size: 1.75rem;
-}
-
+    font-size: 1.75rem;
+  }
 
   .banner-img-container {
     width: 100%;
@@ -214,24 +204,16 @@ nav {
     justify-content: center;
     place-items: start;
   }
-  .bgcolor{
+  .bgcolor {
     width: 250px;
   }
-  
-  .dslr{
 
-  left: 20px;
-  top: 70px;
-  width: 290px;
+  .dslr {
+    left: 20px;
+    top: 70px;
+    width: 290px;
+  }
+  .circle {
+    max-width: 380px;
+  }
 }
-.circle{
-  max-width: 380px;
-}
-}
-  
-
-  
-
-
-
-
